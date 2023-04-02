@@ -21,7 +21,12 @@ set(PROJECT_SOURCES
         ui_MyCPlus.h
         MyCPlus.ui
         ${TS_FILES}
-        chess.cpp chess.h)
+        chess.cpp
+        chess.h
+        MyCPlus.qrc
+        images/
+        score.txt
+    )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(MyCPlus

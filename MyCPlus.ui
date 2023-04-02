@@ -17,7 +17,7 @@
    <string>MyCPlus</string>
   </property>
   <property name="autoFillBackground">
-   <bool>true</bool>
+   <bool>false</bool>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -29,11 +29,11 @@
       <bool>true</bool>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>1</number>
      </property>
      <widget class="QWidget" name="pageSet">
       <property name="autoFillBackground">
-       <bool>true</bool>
+       <bool>false</bool>
       </property>
       <property name="styleSheet">
        <string notr="true">#pageSet{
@@ -54,7 +54,6 @@
         <font>
          <family>方正粗黑宋简体</family>
          <pointsize>10</pointsize>
-         <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
         </font>
@@ -139,7 +138,7 @@ color:rgb(0, 0, 0)</string>
            </brush>
           </colorrole>
           <colorrole role="PlaceholderText">
-           <brush brushstyle="NoBrush">
+           <brush brushstyle="SolidPattern">
             <color alpha="128">
              <red>0</red>
              <green>0</green>
@@ -204,7 +203,7 @@ color:rgb(0, 0, 0)</string>
            </brush>
           </colorrole>
           <colorrole role="PlaceholderText">
-           <brush brushstyle="NoBrush">
+           <brush brushstyle="SolidPattern">
             <color alpha="128">
              <red>0</red>
              <green>0</green>
@@ -269,7 +268,7 @@ color:rgb(0, 0, 0)</string>
            </brush>
           </colorrole>
           <colorrole role="PlaceholderText">
-           <brush brushstyle="NoBrush">
+           <brush brushstyle="SolidPattern">
             <color alpha="128">
              <red>0</red>
              <green>0</green>
@@ -284,7 +283,6 @@ color:rgb(0, 0, 0)</string>
         <font>
          <family>方正粗黑宋简体</family>
          <pointsize>10</pointsize>
-         <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
         </font>

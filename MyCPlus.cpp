@@ -17,6 +17,7 @@ MyCPlus::MyCPlus(QWidget *parent)
         : QWidget(parent)
 {
     ui.setupUi(this);
+    this->setWindowIcon(QIcon(":/images/icon1.ico"));
     //去除窗口边框
     setWindowFlags(Qt::FramelessWindowHint | windowFlags());
     //设置窗口背景色透明

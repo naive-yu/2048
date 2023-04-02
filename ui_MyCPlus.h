@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'MyCPlus.ui'
 **
-** Created by: Qt User Interface Compiler version 5.15.1
+** Created by: Qt User Interface Compiler version 6.4.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -64,39 +64,40 @@ public:
     void setupUi(QWidget *MyCPlusClass)
     {
         if (MyCPlusClass->objectName().isEmpty())
-            MyCPlusClass->setObjectName(QString::fromUtf8("MyCPlusClass"));
+            MyCPlusClass->setObjectName("MyCPlusClass");
         MyCPlusClass->setEnabled(true);
         MyCPlusClass->resize(890, 528);
+        MyCPlusClass->setAutoFillBackground(false);
         MyCPlusClass->setStyleSheet(QString::fromUtf8(""));
         gridLayout_2 = new QGridLayout(MyCPlusClass);
         gridLayout_2->setSpacing(6);
         gridLayout_2->setContentsMargins(11, 11, 11, 11);
-        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
+        gridLayout_2->setObjectName("gridLayout_2");
         stackedWidget = new QStackedWidget(MyCPlusClass);
-        stackedWidget->setObjectName(QString::fromUtf8("stackedWidget"));
+        stackedWidget->setObjectName("stackedWidget");
         stackedWidget->setAutoFillBackground(true);
         pageSet = new QWidget();
-        pageSet->setObjectName(QString::fromUtf8("pageSet"));
+        pageSet->setObjectName("pageSet");
+        pageSet->setAutoFillBackground(false);
         pageSet->setStyleSheet(QString::fromUtf8("#pageSet{\n"
 "	background:url(\":/images/back2.jpg\");\n"
 "	background-size:100% 100%;\n"
 "}"));
         pushButton_2 = new QPushButton(pageSet);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setObjectName("pushButton_2");
         pushButton_2->setGeometry(QRect(460, 420, 111, 41));
         QFont font;
-        font.setFamily(QString::fromUtf8("\346\226\271\346\255\243\347\262\227\351\273\221\345\256\213\347\256\200\344\275\223"));
+        font.setFamilies({QString::fromUtf8("\346\226\271\346\255\243\347\262\227\351\273\221\345\256\213\347\256\200\344\275\223")});
         font.setPointSize(10);
         font.setBold(false);
         font.setItalic(false);
-        font.setWeight(static_cast<QFont::Weight>(50));
         pushButton_2->setFont(font);
         pushButton_2->setStyleSheet(QString::fromUtf8("font: 10pt \"\346\226\271\346\255\243\347\262\227\351\273\221\345\256\213\347\256\200\344\275\223\";\n"
 "background-color:rgb(235, 217, 129);\n"
 "border-radius:10px;\n"
 "color:rgb(0, 0, 0)"));
         pushButton_3 = new QPushButton(pageSet);
-        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
+        pushButton_3->setObjectName("pushButton_3");
         pushButton_3->setEnabled(true);
         pushButton_3->setGeometry(QRect(260, 420, 111, 41));
         QPalette palette;
@@ -111,7 +112,7 @@ public:
         palette.setBrush(QPalette::Active, QPalette::Base, brush1);
         palette.setBrush(QPalette::Active, QPalette::Window, brush1);
         QBrush brush2(QColor(0, 0, 0, 128));
-        brush2.setStyle(Qt::NoBrush);
+        brush2.setStyle(Qt::SolidPattern);
 #if QT_VERSION >= QT_VERSION_CHECK(5, 12, 0)
         palette.setBrush(QPalette::Active, QPalette::PlaceholderText, brush2);
 #endif
@@ -121,10 +122,8 @@ public:
         palette.setBrush(QPalette::Inactive, QPalette::ButtonText, brush);
         palette.setBrush(QPalette::Inactive, QPalette::Base, brush1);
         palette.setBrush(QPalette::Inactive, QPalette::Window, brush1);
-        QBrush brush3(QColor(0, 0, 0, 128));
-        brush3.setStyle(Qt::NoBrush);
 #if QT_VERSION >= QT_VERSION_CHECK(5, 12, 0)
-        palette.setBrush(QPalette::Inactive, QPalette::PlaceholderText, brush3);
+        palette.setBrush(QPalette::Inactive, QPalette::PlaceholderText, brush2);
 #endif
         palette.setBrush(QPalette::Disabled, QPalette::WindowText, brush);
         palette.setBrush(QPalette::Disabled, QPalette::Button, brush1);
@@ -132,10 +131,8 @@ public:
         palette.setBrush(QPalette::Disabled, QPalette::ButtonText, brush);
         palette.setBrush(QPalette::Disabled, QPalette::Base, brush1);
         palette.setBrush(QPalette::Disabled, QPalette::Window, brush1);
-        QBrush brush4(QColor(0, 0, 0, 128));
-        brush4.setStyle(Qt::NoBrush);
 #if QT_VERSION >= QT_VERSION_CHECK(5, 12, 0)
-        palette.setBrush(QPalette::Disabled, QPalette::PlaceholderText, brush4);
+        palette.setBrush(QPalette::Disabled, QPalette::PlaceholderText, brush2);
 #endif
         pushButton_3->setPalette(palette);
         pushButton_3->setFont(font);
@@ -144,19 +141,19 @@ public:
 "border-radius:10px;\n"
 "color:rgb(0, 0, 0)"));
         layoutWidget = new QWidget(pageSet);
-        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
+        layoutWidget->setObjectName("layoutWidget");
         layoutWidget->setGeometry(QRect(0, 100, 831, 261));
         horizontalLayout = new QHBoxLayout(layoutWidget);
         horizontalLayout->setSpacing(6);
         horizontalLayout->setContentsMargins(11, 11, 11, 11);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setObjectName("horizontalLayout");
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
         horizontalLayout->addItem(horizontalSpacer);
 
         label = new QLabel(layoutWidget);
-        label->setObjectName(QString::fromUtf8("label"));
+        label->setObjectName("label");
         label->setPixmap(QPixmap(QString::fromUtf8(":/images/timg.jpg")));
         label->setAlignment(Qt::AlignCenter);
 
@@ -168,12 +165,12 @@ public:
 
         stackedWidget->addWidget(pageSet);
         pageGame = new QWidget();
-        pageGame->setObjectName(QString::fromUtf8("pageGame"));
+        pageGame->setObjectName("pageGame");
         pageGame->setStyleSheet(QString::fromUtf8("#pageGame{\n"
 "	background-color:#faf8ef;\n"
 "}"));
         Board = new QWidget(pageGame);
-        Board->setObjectName(QString::fromUtf8("Board"));
+        Board->setObjectName("Board");
         Board->setGeometry(QRect(20, 50, 441, 441));
         Board->setLayoutDirection(Qt::LeftToRight);
         Board->setAutoFillBackground(false);
@@ -185,11 +182,11 @@ public:
         gridLayout = new QGridLayout(Board);
         gridLayout->setSpacing(6);
         gridLayout->setContentsMargins(11, 11, 11, 11);
-        gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
+        gridLayout->setObjectName("gridLayout");
         label_2 = new QLabel(Board);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setObjectName("label_2");
         QFont font1;
-        font1.setFamily(QString::fromUtf8("\345\276\256\350\275\257\351\233\205\351\273\221"));
+        font1.setFamilies({QString::fromUtf8("\345\276\256\350\275\257\351\233\205\351\273\221")});
         font1.setPointSize(20);
         label_2->setFont(font1);
         label_2->setLayoutDirection(Qt::RightToLeft);
@@ -199,7 +196,7 @@ public:
         gridLayout->addWidget(label_2, 0, 0, 1, 1);
 
         label_3 = new QLabel(Board);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setObjectName("label_3");
         label_3->setFont(font1);
         label_3->setLayoutDirection(Qt::RightToLeft);
         label_3->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -208,7 +205,7 @@ public:
         gridLayout->addWidget(label_3, 0, 1, 1, 1);
 
         label_4 = new QLabel(Board);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setObjectName("label_4");
         label_4->setFont(font1);
         label_4->setLayoutDirection(Qt::RightToLeft);
         label_4->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -217,7 +214,7 @@ public:
         gridLayout->addWidget(label_4, 0, 2, 1, 1);
 
         label_5 = new QLabel(Board);
-        label_5->setObjectName(QString::fromUtf8("label_5"));
+        label_5->setObjectName("label_5");
         label_5->setFont(font1);
         label_5->setLayoutDirection(Qt::RightToLeft);
         label_5->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -226,7 +223,7 @@ public:
         gridLayout->addWidget(label_5, 0, 3, 1, 1);
 
         label_7 = new QLabel(Board);
-        label_7->setObjectName(QString::fromUtf8("label_7"));
+        label_7->setObjectName("label_7");
         label_7->setFont(font1);
         label_7->setLayoutDirection(Qt::RightToLeft);
         label_7->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -235,7 +232,7 @@ public:
         gridLayout->addWidget(label_7, 1, 0, 1, 1);
 
         label_8 = new QLabel(Board);
-        label_8->setObjectName(QString::fromUtf8("label_8"));
+        label_8->setObjectName("label_8");
         label_8->setFont(font1);
         label_8->setLayoutDirection(Qt::RightToLeft);
         label_8->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -244,7 +241,7 @@ public:
         gridLayout->addWidget(label_8, 1, 1, 1, 1);
 
         label_9 = new QLabel(Board);
-        label_9->setObjectName(QString::fromUtf8("label_9"));
+        label_9->setObjectName("label_9");
         label_9->setFont(font1);
         label_9->setLayoutDirection(Qt::RightToLeft);
         label_9->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -253,7 +250,7 @@ public:
         gridLayout->addWidget(label_9, 1, 2, 1, 1);
 
         label_6 = new QLabel(Board);
-        label_6->setObjectName(QString::fromUtf8("label_6"));
+        label_6->setObjectName("label_6");
         label_6->setFont(font1);
         label_6->setLayoutDirection(Qt::RightToLeft);
         label_6->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -262,7 +259,7 @@ public:
         gridLayout->addWidget(label_6, 1, 3, 1, 1);
 
         label_10 = new QLabel(Board);
-        label_10->setObjectName(QString::fromUtf8("label_10"));
+        label_10->setObjectName("label_10");
         label_10->setFont(font1);
         label_10->setLayoutDirection(Qt::RightToLeft);
         label_10->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -271,7 +268,7 @@ public:
         gridLayout->addWidget(label_10, 2, 0, 1, 1);
 
         label_12 = new QLabel(Board);
-        label_12->setObjectName(QString::fromUtf8("label_12"));
+        label_12->setObjectName("label_12");
         label_12->setFont(font1);
         label_12->setLayoutDirection(Qt::RightToLeft);
         label_12->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -280,7 +277,7 @@ public:
         gridLayout->addWidget(label_12, 2, 1, 1, 1);
 
         label_11 = new QLabel(Board);
-        label_11->setObjectName(QString::fromUtf8("label_11"));
+        label_11->setObjectName("label_11");
         label_11->setFont(font1);
         label_11->setLayoutDirection(Qt::RightToLeft);
         label_11->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -289,7 +286,7 @@ public:
         gridLayout->addWidget(label_11, 2, 2, 1, 1);
 
         label_13 = new QLabel(Board);
-        label_13->setObjectName(QString::fromUtf8("label_13"));
+        label_13->setObjectName("label_13");
         label_13->setFont(font1);
         label_13->setLayoutDirection(Qt::RightToLeft);
         label_13->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -298,7 +295,7 @@ public:
         gridLayout->addWidget(label_13, 2, 3, 1, 1);
 
         label_16 = new QLabel(Board);
-        label_16->setObjectName(QString::fromUtf8("label_16"));
+        label_16->setObjectName("label_16");
         label_16->setFont(font1);
         label_16->setLayoutDirection(Qt::RightToLeft);
         label_16->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -307,7 +304,7 @@ public:
         gridLayout->addWidget(label_16, 3, 0, 1, 1);
 
         label_14 = new QLabel(Board);
-        label_14->setObjectName(QString::fromUtf8("label_14"));
+        label_14->setObjectName("label_14");
         label_14->setFont(font1);
         label_14->setLayoutDirection(Qt::RightToLeft);
         label_14->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -316,7 +313,7 @@ public:
         gridLayout->addWidget(label_14, 3, 1, 1, 1);
 
         label_18 = new QLabel(Board);
-        label_18->setObjectName(QString::fromUtf8("label_18"));
+        label_18->setObjectName("label_18");
         label_18->setFont(font1);
         label_18->setLayoutDirection(Qt::RightToLeft);
         label_18->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -325,7 +322,7 @@ public:
         gridLayout->addWidget(label_18, 3, 2, 1, 1);
 
         label_15 = new QLabel(Board);
-        label_15->setObjectName(QString::fromUtf8("label_15"));
+        label_15->setObjectName("label_15");
         label_15->setFont(font1);
         label_15->setLayoutDirection(Qt::RightToLeft);
         label_15->setStyleSheet(QString::fromUtf8("background-color:rgb(230, 153, 0)"));
@@ -334,28 +331,28 @@ public:
         gridLayout->addWidget(label_15, 3, 3, 1, 1);
 
         pushButton_4 = new QPushButton(pageGame);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
+        pushButton_4->setObjectName("pushButton_4");
         pushButton_4->setGeometry(QRect(60, 10, 121, 31));
         pushButton_4->setStyleSheet(QString::fromUtf8("font: 10pt \"\346\226\271\346\255\243\347\262\227\351\273\221\345\256\213\347\256\200\344\275\223\";\n"
 "background-color:rgb(235, 217, 129);\n"
 "border-radius:10px;\n"
 "color:rgb(0, 0, 0)"));
         pushButton_5 = new QPushButton(pageGame);
-        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
+        pushButton_5->setObjectName("pushButton_5");
         pushButton_5->setGeometry(QRect(290, 10, 131, 31));
         pushButton_5->setStyleSheet(QString::fromUtf8("font: 10pt \"\346\226\271\346\255\243\347\262\227\351\273\221\345\256\213\347\256\200\344\275\223\";\n"
 "background-color:rgb(235, 217, 129);\n"
 "border-radius:10px;\n"
 "color:rgb(0, 0, 0);"));
         widget = new QWidget(pageGame);
-        widget->setObjectName(QString::fromUtf8("widget"));
+        widget->setObjectName("widget");
         widget->setGeometry(QRect(509, 49, 311, 441));
         widget->setStyleSheet(QString::fromUtf8(""));
         label_17 = new QLabel(widget);
-        label_17->setObjectName(QString::fromUtf8("label_17"));
+        label_17->setObjectName("label_17");
         label_17->setGeometry(QRect(90, 20, 131, 71));
         QFont font2;
-        font2.setFamily(QString::fromUtf8("Algerian"));
+        font2.setFamilies({QString::fromUtf8("Algerian")});
         font2.setPointSize(22);
         label_17->setFont(font2);
         label_17->setStyleSheet(QString::fromUtf8("background-color:#bcaea1;\n"
@@ -363,7 +360,7 @@ public:
 "border:2px solid rgb(170, 170, 127)"));
         label_17->setAlignment(Qt::AlignCenter);
         label_19 = new QLabel(widget);
-        label_19->setObjectName(QString::fromUtf8("label_19"));
+        label_19->setObjectName("label_19");
         label_19->setGeometry(QRect(90, 230, 131, 71));
         label_19->setFont(font2);
         label_19->setStyleSheet(QString::fromUtf8("background-color:#bcaea1;\n"
@@ -371,15 +368,15 @@ public:
 "border:2px solid rgb(170, 170, 127)"));
         label_19->setAlignment(Qt::AlignCenter);
         label_20 = new QLabel(widget);
-        label_20->setObjectName(QString::fromUtf8("label_20"));
+        label_20->setObjectName("label_20");
         label_20->setGeometry(QRect(40, 100, 231, 51));
         QFont font3;
-        font3.setFamily(QString::fromUtf8("\345\276\256\350\275\257\351\233\205\351\273\221"));
+        font3.setFamilies({QString::fromUtf8("\345\276\256\350\275\257\351\233\205\351\273\221")});
         font3.setPointSize(16);
         label_20->setFont(font3);
         label_20->setAlignment(Qt::AlignCenter);
         label_21 = new QLabel(widget);
-        label_21->setObjectName(QString::fromUtf8("label_21"));
+        label_21->setObjectName("label_21");
         label_21->setGeometry(QRect(40, 310, 231, 51));
         label_21->setFont(font3);
         label_21->setAlignment(Qt::AlignCenter);
@@ -394,7 +391,7 @@ public:
         QObject::connect(pushButton_4, SIGNAL(clicked()), MyCPlusClass, SLOT(newGame()));
         QObject::connect(pushButton_5, SIGNAL(clicked()), MyCPlusClass, SLOT(reGame()));
 
-        stackedWidget->setCurrentIndex(0);
+        stackedWidget->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MyCPlusClass);
