@@ -18,6 +18,7 @@ set(PROJECT_SOURCES
         main.cpp
         MyCPlus.cpp
         MyCPlus.h
+        ui_MyCPlus.h
         MyCPlus.ui
         ${TS_FILES}
         chess.cpp chess.h)
